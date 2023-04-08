@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import { Container, Typography } from "@mui/material";
 
 function App() {
   return (
-    <div>
-      <p>hoge</p>
-    </div>
+    <Container maxWidth="md">
+      <Typography>hoge</Typography>
+    </Container>
   );
 }
 
